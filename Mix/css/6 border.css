@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+p{
+	margin: 20px;
+	padding: 10px;
+	border-color: green;
+	border-style: solid;
+	border-width: 15px;
+	border-radius: 10px;
+	border-image-source: url("../imagen/border.png");
+	border-image-slice: 33%;
+	border-image-width: 15px;
+	border-image-outset: 12px;
+	border-image-repeat: round;
+}

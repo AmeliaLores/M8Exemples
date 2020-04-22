@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+.multic {
+
+	/* Mateixes característiques per els distints navegadors. Consultar documentació w3c per "columns"*/
+	
+	-moz-column-count: 3;
+	-moz-column-width: 30%;
+	-moz-column-gap: 5%;
+	-moz-column-rule: 2px dotted green;/**/
+	-moz-column-count: 8;
+	-moz-column-rule: 5px double aquamarine;
+	
+	-webkit-column-count: 3;
+	-webkit-column-width: 30%;
+	-webkit-column-gap: 5%;
+	-webkit-column-rule: 2px dotted green;/**/
+	
+	-ms-column-count: 3;
+	-ms-column-width: 30%;
+	-ms-column-gap: 5%;
+	-ms-column-rule: 2px dotted green;/**/
+	
+	column-count: 3;
+	column-width: 30%;
+	column-gap: 5%;
+	column-rule: 2px dotted green;/**/
+
+}
+
+
+
+
+
+
+
+
+
+
+
